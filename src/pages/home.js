@@ -19,7 +19,7 @@ export default function home() {
                     <p>|</p>
                     <li><a href="#Contact_Me">Contact Me</a></li>
                     <p>|</p>
-                    <li><a href="../../public/assets/downloads/ADouglas_LinkedIn_Resume.pdf" download>Resume</a></li>
+                    <li><a href="./assets/downloads/ADouglas_LinkedIn_Resume.pdf" download>Resume</a></li>
                 </ul>
             </nav>
         </header> 
@@ -43,7 +43,7 @@ export default function home() {
 
                     <p id="intro_text">
 
-                        <img id="intro_image" src="../../public/assets/imgs/My_Profile_Pic.JPG" alt="A Picture of Abigail Douglas"/>
+                        <img id="intro_image" src="./assets/imgs/My_Profile_Pic.JPG" alt="A Picture of Abigail Douglas"/>
 
                         <br id="about_me_mobile_br"/>
 
@@ -69,7 +69,7 @@ export default function home() {
         
                         <a id="featured_standard" href="https://github.com/AbbyDabbyDooDoesGitHub/quote-me-senpai" target="_blank">
                             <work_ex_card_feat class="featured_work">
-                                <img class="featured_work content_images" src="../../public/assets/imgs/_project-imgs/QMS_screenshot_STDFeat.png" alt="Light Purple Rounded Swirl"/>
+                                <img class="featured_work content_images" src="./assets/imgs/_project-imgs/QMS_screenshot_STDFeat.png" alt="Light Purple Rounded Swirl"/>
                                 <h4>Quote Me, Senpai!
                                     <br/>
                                     <p>Anime Quote Quiz, API Usage, Materialize Framework</p>
@@ -79,7 +79,7 @@ export default function home() {
                         
                         <a id="featured_mobile" href="https://github.com/AbbyDabbyDooDoesGitHub/quote-me-senpai" target="_blank">
                             <work_ex_card_feat class="featured_work">
-                                <img class="featured_work content_images" src="../../public/assets/imgs/_project-imgs/QMS_screenshot.png" alt="Preview of the 'Quote Me, Senpai' Web Application"/>
+                                <img class="featured_work content_images" src="./assets/imgs/_project-imgs/QMS_screenshot.png" alt="Preview of the 'Quote Me, Senpai' Web Application"/>
                                 <h4>Quote Me, Senpai!
                                     <br/>
                                     <p>Anime Quote Quiz, API Usage, Materialize Framework</p>
@@ -91,7 +91,7 @@ export default function home() {
                         
                         <a href="https://github.com/AbbyDabbyDooDoesGitHub/UW_ChWk03_PasswordGenerator" target="_blank">
                             <work_ex_card>
-                                <img class="content_images" src="../../public/assets/imgs/_project-imgs/PasswordGen_Screenshot.png" alt="Preview of the Password Generator Web Application"/>
+                                <img class="content_images" src="./assets/imgs/_project-imgs/PasswordGen_Screenshot.png" alt="Preview of the Password Generator Web Application"/>
                                 <h4>Password Generator
                                     <br/>
                                     <p>User Input, Alert/Confirm Windows, & Random Characters</p>
@@ -101,7 +101,7 @@ export default function home() {
 
                         <a href="https://github.com/AbbyDabbyDooDoesGitHub/UW_ChWk01_WebAccessibilityFeatures" target="_blank">
                             <work_ex_card>
-                                <img class="content_images" src="../../public/assets/imgs/_project-imgs/Accessibility_Screenshot.PNG" alt="Preview of the Page Worked on for Accessibility Features (A Fake Company Landing Page)"/>
+                                <img class="content_images" src="./assets/imgs/_project-imgs/Accessibility_Screenshot.PNG" alt="Preview of the Page Worked on for Accessibility Features (A Fake Company Landing Page)"/>
                                 <h4>Web Accessibility Features
                                     <br/>
                                     <p>Add Accessibility Features, Adjust Layout, & Ensure Proper Functionality</p>
@@ -110,7 +110,7 @@ export default function home() {
                         </a>
 
                         <work_ex_card>
-                            <img class="content_images" src="../../public/assets/imgs/_generic-imgs/Light_Purple_Rounded_Blob_Swirl.jpg" alt="Light Purple Rounded Swirl"/>
+                            <img class="content_images" src="./assets/imgs/_generic-imgs/Light_Purple_Rounded_Blob_Swirl.jpg" alt="Light Purple Rounded Swirl"/>
                             <h4>Placeholder
                                 <br/>
                                 <p>Subtitle</p>
@@ -118,7 +118,7 @@ export default function home() {
                         </work_ex_card>                
         
                         <work_ex_card>
-                            <img class="content_images" src="../../public/assets/imgs/_generic-imgs/Light_Pink_Tan_Unfocused_Lights.jpg" alt="Light Pink Unfocused Lights"/>
+                            <img class="content_images" src="./assets/imgs/_generic-imgs/Light_Pink_Tan_Unfocused_Lights.jpg" alt="Light Pink Unfocused Lights"/>
                             <h4>Placeholder
                                 <br/>
                                 <p>Subtitle</p>
@@ -126,7 +126,7 @@ export default function home() {
                         </work_ex_card>    
                         
                         <work_ex_card>
-                            <img class="content_images" src="../../public/assets/imgs/_generic-imgs/Grey_Abstract_Building.jpg" alt="Grey Abstract Building"/>
+                            <img class="content_images" src="./assets/imgs/_generic-imgs/Grey_Abstract_Building.jpg" alt="Grey Abstract Building"/>
                             <h4>Placeholder
                                 <br/>
                                 <p>Subtitle</p>
@@ -150,15 +150,15 @@ export default function home() {
                     <div id="Contact_Me_Content">
                         <ul class="Contact_Me_Content">
                             <li class="Contact_Me_Content"><a href="https://github.com/AbbyDabbyDooDoesGitHub" target="_blank">
-                                <img class="contact_icons" src="../../public/assets/imgs/_generic-imgs/icons/logo_github_icon_143196.png" alt="GitHub Logo Icon"/>
+                                <img class="contact_icons" src="./assets/imgs/_icons/logo_github_icon_143196.png" alt="GitHub Logo Icon"/>
                             </a></li>
 
                             <li class="Contact_Me_Content"><a href="https://www.linkedin.com/in/abigailcdouglas/" target="_blank">
-                                <img class="contact_icons" src="../../public/assets/imgs/_generic-imgs/icons/logo_linkedin_icon_143191.png" alt="LinkedIn Logo Icon"/>
+                                <img class="contact_icons" src="./assets/imgs/_icons/logo_linkedin_icon_143191.png" alt="LinkedIn Logo Icon"/>
                             </a></li>
 
                             <li class="Contact_Me_Content"><a href="mailto: ItsAbigailDouglas@gmail.com">
-                                <img class="contact_icons" src="../../public/assets/imgs/_generic-imgs/icons/logo_gmail_envelope_letter_email_icon_143171.png" alt="Gmail Logo Icon"/>
+                                <img class="contact_icons" src="./assets/imgs/_icons/logo_gmail_envelope_letter_email_icon_143171.png" alt="Gmail Logo Icon"/>
                             </a></li>
 
                         </ul>
