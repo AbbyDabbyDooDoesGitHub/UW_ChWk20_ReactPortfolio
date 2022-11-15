@@ -108,14 +108,17 @@ export default function home() {
                                 </h4>
                             </work_ex_card>  
                         </a>
+                        
 
-                        <work_ex_card>
-                            <img class="content_images" src="./assets/imgs/_generic-imgs/Light_Purple_Rounded_Blob_Swirl.jpg" alt="Light Purple Rounded Swirl"/>
-                            <h4>Placeholder
-                                <br/>
-                                <p>Subtitle</p>
-                            </h4>
-                        </work_ex_card>                
+                        <a href="https://github.com/AbbyDabbyDooDoesGitHub/UW_Project3_LeagueOfLegendsFriendTracker" target="_blank">
+                            <work_ex_card>
+                                <img class="content_images" src="./assets/imgs/_generic-imgs/Light_Purple_Rounded_Blob_Swirl.jpg" alt="Light Purple Rounded Swirl"/>
+                                <h4>Hawkshot
+                                    <br/>
+                                    <p>Gaming Friend Tracker</p>
+                                </h4>
+                            </work_ex_card>   
+                        </a>             
         
                         <work_ex_card>
                             <img class="content_images" src="./assets/imgs/_generic-imgs/Light_Pink_Tan_Unfocused_Lights.jpg" alt="Light Pink Unfocused Lights"/>
