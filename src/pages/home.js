@@ -1,10 +1,10 @@
 import React from 'react';
 
-import ProjectFeatured from './components/ProjectFeatured';
-import Project from './components/Project';
+import ProjectFeatured from '../components/ProjectFeatured';
+import Project from '../components/Project';
 
 // Import our list of users from users.js
-import projectSeeds from './seeds/project-seeds';
+import projectSeeds from '../seeds/project-seeds';
 
 export default function home() {
   return (
@@ -47,11 +47,11 @@ export default function home() {
         
                 <div class="content">
         
-                        <ProjectFeatured projects={projectSeeds} />
+                        {/* <ProjectFeatured projectSeeds={projectSeeds} /> */}
 
                     <content_image_cards>
 
-                        <Project projects={projectSeeds} />
+                        <Project projectSeeds={projectSeeds} />
         
                     </content_image_cards>
         
@@ -69,11 +69,11 @@ export default function home() {
                 <div class="content">
                     <div id="Contact_Me_Content">
                         <ul class="Contact_Me_Content">
-                            <li class="Contact_Me_Content"><a href="https://github.com/AbbyDabbyDooDoesGitHub" target="_blank">
+                            <li class="Contact_Me_Content"><a href="https://github.com/AbbyDabbyDooDoesGitHub" target="_blank" rel="noreferrer">
                                 <img class="contact_icons" src="./assets/imgs/_icons/logo_github_icon_143196.png" alt="GitHub Logo Icon"/>
                             </a></li>
 
-                            <li class="Contact_Me_Content"><a href="https://www.linkedin.com/in/abigailcdouglas/" target="_blank">
+                            <li class="Contact_Me_Content"><a href="https://www.linkedin.com/in/abigailcdouglas/" target="_blank" rel="noreferrer">
                                 <img class="contact_icons" src="./assets/imgs/_icons/logo_linkedin_icon_143191.png" alt="LinkedIn Logo Icon"/>
                             </a></li>
 
