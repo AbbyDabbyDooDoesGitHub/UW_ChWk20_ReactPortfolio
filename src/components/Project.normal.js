@@ -2,14 +2,14 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 
 // PROJECT CARDS
-export default function Project({ id, title, subtitle, repoLink, featImg, mobileFeatOrStdImg, altImg, featured }) {
+export default function ProjectNormal({ id, title, subtitle, repoLink, mobileFeatOrStdImg, altImg, featured }) {
 
   if (featured === true) {
 
     return null;
 
   } else {
-    
+
     return (
 
       <a href={repoLink} target="_blank" rel="noreferrer">

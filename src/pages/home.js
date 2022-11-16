@@ -1,7 +1,8 @@
 import React from 'react';
 
 import ProjectFeatured from '../components/Project.featured';
-import Project from '../components/Project.normal';
+import ProjectFeaturedMobile from '../components/Project.featured.mobile';
+import ProjectNormal from '../components/Project.normal';
 import data from '../components/Project.data'
 
 export default function home() {
@@ -44,19 +45,42 @@ export default function home() {
                 </div>
         
                 <div class="content">
-        
-                        {/* <ProjectFeatured projectSeeds={projectSeeds} /> */}
-
-                    <div class="content_image_cards">
 
                         {/* Go through list of projetcs and map them each to their own Project component */}
-                        {data.map(({ id, title, subtitle, repoLink, featImg, mobileFeatOrStdImg, altImg, featured }) => (
-                            <Project
+                        {data.map(({ id, title, subtitle, repoLink, featImg, altImg, featured }) => (
+                            <ProjectFeatured
                                 id={id}
                                 title={title}
                                 subtitle={subtitle}
                                 repoLink={repoLink}
                                 featImg={featImg}
+                                altImg={altImg}
+                                featured={featured}
+                            />
+                        ))}
+
+                        {/* Go through list of projetcs and map them each to their own Project component */}
+                        {data.map(({ id, title, subtitle, repoLink, mobileFeatOrStdImg, altImg, featured }) => (
+                            <ProjectFeaturedMobile
+                                id={id}
+                                title={title}
+                                subtitle={subtitle}
+                                repoLink={repoLink}
+                                mobileFeatOrStdImg={mobileFeatOrStdImg}
+                                altImg={altImg}
+                                featured={featured}
+                            />
+                        ))}
+
+                    <div class="content_image_cards">
+
+                        {/* Go through list of projetcs and map them each to their own Project component */}
+                        {data.map(({ id, title, subtitle, repoLink, mobileFeatOrStdImg, altImg, featured }) => (
+                            <ProjectNormal
+                                id={id}
+                                title={title}
+                                subtitle={subtitle}
+                                repoLink={repoLink}
                                 mobileFeatOrStdImg={mobileFeatOrStdImg}
                                 altImg={altImg}
                                 featured={featured}

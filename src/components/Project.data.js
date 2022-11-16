@@ -38,7 +38,7 @@ const data = [
       title: "Hawkshot: Gaming Friend Tracker",
       subtitle: "Full Stack React Application Deployed on Heroku",
       repoLink: "https://github.com/AbbyDabbyDooDoesGitHub/UW_Project3_LeagueOfLegendsFriendTracker",
-      featImg: "",
+      featImg: "./assets/imgs/_generic-imgs/Light_Purple_Rounded_Blob_Swirl.jpg",
       mobileFeatOrStdImg: "./assets/imgs/_generic-imgs/Light_Purple_Rounded_Blob_Swirl.jpg",
       altImg: "Light Purple Rounded Swirl",
       featured: true,
