@@ -1,10 +1,8 @@
 import React from 'react';
 
-import ProjectFeatured from '../components/ProjectFeatured';
-import Project from '../components/Project';
-
-// Import our list of users from users.js
-import projectSeeds from '../seeds/project-seeds';
+import ProjectFeatured from '../components/Project.featured';
+import Project from '../components/Project.normal';
+import data from '../components/Project.data'
 
 export default function home() {
   return (
@@ -49,11 +47,23 @@ export default function home() {
         
                         {/* <ProjectFeatured projectSeeds={projectSeeds} /> */}
 
-                    <content_image_cards>
+                    <div class="content_image_cards">
 
-                        <Project projectSeeds={projectSeeds} />
+                        {/* Go through list of projetcs and map them each to their own Project component */}
+                        {data.map(({ id, title, subtitle, repoLink, featImg, mobileFeatOrStdImg, altImg, featured }) => (
+                            <Project
+                                id={id}
+                                title={title}
+                                subtitle={subtitle}
+                                repoLink={repoLink}
+                                featImg={featImg}
+                                mobileFeatOrStdImg={mobileFeatOrStdImg}
+                                altImg={altImg}
+                                featured={featured}
+                            />
+                        ))}
         
-                    </content_image_cards>
+                    </div>
         
                 </div>
         
