@@ -5,7 +5,7 @@ OVERVIEW TEXT HERE
 ``` -->
 
 ### Link to Web App: 
-<!-- LINK TO DEPLOYMENT HERE -->
+https://abbydabbydoodoesgithub.github.io/UW_ChWk20_ReactPortfolio/
 
 ### App Preview:
 <!-- Replace with path to screenshot   ![My Password Generator Screenshot](./Assets/MyPasswordGeneratorScreenShot.PNG "My Password Generator Screenshot") -->
