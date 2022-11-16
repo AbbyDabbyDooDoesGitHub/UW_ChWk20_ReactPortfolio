@@ -5,7 +5,7 @@ import ProjectFeaturedMobile from '../components/Project.featured.mobile';
 import ProjectNormal from '../components/Project.normal';
 import data from '../components/Project.data'
 
-export default function home() {
+export default function Home() {
   return (
     <React.Fragment>
 
