@@ -1,34 +1,13 @@
-import React from 'react'
+import React from 'react';
+
+import ProjectFeatured from '../components/Project.featured';
+import ProjectFeaturedMobile from '../components/Project.featured.mobile';
+import ProjectNormal from '../components/Project.normal';
+import data from '../components/Project.data'
 
 export default function home() {
   return (
     <React.Fragment>
-
-
-        <header>
-            <h1>Abigail Douglas</h1>
-
-            <br  class="header_mobile_br"/>
-            <br  class="header_mobile_br"/>
-
-            <nav class="head_nav">
-                <ul>
-                    <li><a href="#About_Me">About Me</a></li>
-                    <p>|</p>
-                    <li><a href="#Work">My Work</a></li>
-                    <p>|</p>
-                    <li><a href="#Contact_Me">Contact Me</a></li>
-                    <p>|</p>
-                    <li><a href="./assets/downloads/ADouglas_LinkedIn_Resume.pdf" download>Resume</a></li>
-                </ul>
-            </nav>
-        </header> 
-
-        <subheader>
-            <div>
-                <h2>Professional Programming Portfolio</h2>
-            </div>
-        </subheader>
 
         <br/>
 
@@ -66,77 +45,49 @@ export default function home() {
                 </div>
         
                 <div class="content">
-        
-                        <a id="featured_standard" href="https://github.com/AbbyDabbyDooDoesGitHub/quote-me-senpai" target="_blank">
-                            <work_ex_card_feat class="featured_work">
-                                <img class="featured_work content_images" src="./assets/imgs/_project-imgs/QMS_screenshot_STDFeat.png" alt="Light Purple Rounded Swirl"/>
-                                <h4>Quote Me, Senpai!
-                                    <br/>
-                                    <p>Anime Quote Quiz, API Usage, Materialize Framework</p>
-                                </h4>
-                            </work_ex_card_feat>
-                        </a>
-                        
-                        <a id="featured_mobile" href="https://github.com/AbbyDabbyDooDoesGitHub/quote-me-senpai" target="_blank">
-                            <work_ex_card_feat class="featured_work">
-                                <img class="featured_work content_images" src="./assets/imgs/_project-imgs/QMS_screenshot.png" alt="Preview of the 'Quote Me, Senpai' Web Application"/>
-                                <h4>Quote Me, Senpai!
-                                    <br/>
-                                    <p>Anime Quote Quiz, API Usage, Materialize Framework</p>
-                                </h4>
-                            </work_ex_card_feat>
-                        </a>
 
-                    <content_image_cards>
-                        
-                        <a href="https://github.com/AbbyDabbyDooDoesGitHub/UW_ChWk03_PasswordGenerator" target="_blank">
-                            <work_ex_card>
-                                <img class="content_images" src="./assets/imgs/_project-imgs/PasswordGen_Screenshot.png" alt="Preview of the Password Generator Web Application"/>
-                                <h4>Password Generator
-                                    <br/>
-                                    <p>User Input, Alert/Confirm Windows, & Random Characters</p>
-                                </h4>
-                            </work_ex_card>  
-                        </a>   
+                        {/* Go through list of projetcs and map them each to their own Project component */}
+                        {data.map(({ id, title, subtitle, repoLink, featImg, altImg, featured }) => (
+                            <ProjectFeatured
+                                id={id}
+                                title={title}
+                                subtitle={subtitle}
+                                repoLink={repoLink}
+                                featImg={featImg}
+                                altImg={altImg}
+                                featured={featured}
+                            />
+                        ))}
 
-                        <a href="https://github.com/AbbyDabbyDooDoesGitHub/UW_ChWk01_WebAccessibilityFeatures" target="_blank">
-                            <work_ex_card>
-                                <img class="content_images" src="./assets/imgs/_project-imgs/Accessibility_Screenshot.PNG" alt="Preview of the Page Worked on for Accessibility Features (A Fake Company Landing Page)"/>
-                                <h4>Web Accessibility Features
-                                    <br/>
-                                    <p>Add Accessibility Features, Adjust Layout, & Ensure Proper Functionality</p>
-                                </h4>
-                            </work_ex_card>  
-                        </a>
-                        
+                        {/* Go through list of projetcs and map them each to their own Project component */}
+                        {data.map(({ id, title, subtitle, repoLink, mobileFeatOrStdImg, altImg, featured }) => (
+                            <ProjectFeaturedMobile
+                                id={id}
+                                title={title}
+                                subtitle={subtitle}
+                                repoLink={repoLink}
+                                mobileFeatOrStdImg={mobileFeatOrStdImg}
+                                altImg={altImg}
+                                featured={featured}
+                            />
+                        ))}
 
-                        <a href="https://github.com/AbbyDabbyDooDoesGitHub/UW_Project3_LeagueOfLegendsFriendTracker" target="_blank">
-                            <work_ex_card>
-                                <img class="content_images" src="./assets/imgs/_generic-imgs/Light_Purple_Rounded_Blob_Swirl.jpg" alt="Light Purple Rounded Swirl"/>
-                                <h4>Hawkshot
-                                    <br/>
-                                    <p>Gaming Friend Tracker</p>
-                                </h4>
-                            </work_ex_card>   
-                        </a>             
+                    <div class="content_image_cards">
+
+                        {/* Go through list of projetcs and map them each to their own Project component */}
+                        {data.map(({ id, title, subtitle, repoLink, mobileFeatOrStdImg, altImg, featured }) => (
+                            <ProjectNormal
+                                id={id}
+                                title={title}
+                                subtitle={subtitle}
+                                repoLink={repoLink}
+                                mobileFeatOrStdImg={mobileFeatOrStdImg}
+                                altImg={altImg}
+                                featured={featured}
+                            />
+                        ))}
         
-                        <work_ex_card>
-                            <img class="content_images" src="./assets/imgs/_generic-imgs/Light_Pink_Tan_Unfocused_Lights.jpg" alt="Light Pink Unfocused Lights"/>
-                            <h4>Placeholder
-                                <br/>
-                                <p>Subtitle</p>
-                            </h4>
-                        </work_ex_card>    
-                        
-                        <work_ex_card>
-                            <img class="content_images" src="./assets/imgs/_generic-imgs/Grey_Abstract_Building.jpg" alt="Grey Abstract Building"/>
-                            <h4>Placeholder
-                                <br/>
-                                <p>Subtitle</p>
-                            </h4>
-                        </work_ex_card>    
-        
-                    </content_image_cards>
+                    </div>
         
                 </div>
         
@@ -152,11 +103,11 @@ export default function home() {
                 <div class="content">
                     <div id="Contact_Me_Content">
                         <ul class="Contact_Me_Content">
-                            <li class="Contact_Me_Content"><a href="https://github.com/AbbyDabbyDooDoesGitHub" target="_blank">
+                            <li class="Contact_Me_Content"><a href="https://github.com/AbbyDabbyDooDoesGitHub" target="_blank" rel="noreferrer">
                                 <img class="contact_icons" src="./assets/imgs/_icons/logo_github_icon_143196.png" alt="GitHub Logo Icon"/>
                             </a></li>
 
-                            <li class="Contact_Me_Content"><a href="https://www.linkedin.com/in/abigailcdouglas/" target="_blank">
+                            <li class="Contact_Me_Content"><a href="https://www.linkedin.com/in/abigailcdouglas/" target="_blank" rel="noreferrer">
                                 <img class="contact_icons" src="./assets/imgs/_icons/logo_linkedin_icon_143191.png" alt="LinkedIn Logo Icon"/>
                             </a></li>
 
@@ -174,10 +125,6 @@ export default function home() {
 
         <br/>
         <br/>
-
-        <footer>
-            <p>Thanks for visiting. Have a lovely day!</p>
-        </footer>
 
 
     </React.Fragment>

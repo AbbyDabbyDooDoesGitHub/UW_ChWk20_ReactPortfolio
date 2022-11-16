@@ -152,14 +152,14 @@ body h2 {
 }
 
 /* image cards for work section */
-content_image_cards {
+.content_image_cards {
     border:none;
     display: flex;
     flex-wrap: wrap;
 }
 
 /* featured work card */
-work_ex_card_feat {
+.work_ex_card_feat {
     display: flex;
     flex-wrap: wrap;
     flex: 2 0 0;
@@ -172,7 +172,7 @@ work_ex_card_feat {
 }
 
 /* each individual work card */
-work_ex_card {
+.work_ex_card {
     display: flex;
     flex-wrap: wrap;
     flex: 1 0 0;
@@ -185,7 +185,7 @@ work_ex_card {
 }
 
 /* the title that goes with the featured card */
-work_ex_card_feat h4 {
+.work_ex_card_feat h4 {
     position:absolute;
     width: 60%;
     bottom: 50px;
@@ -203,7 +203,7 @@ work_ex_card_feat h4 {
 }
 
 /* the title that goes with the work card */
-work_ex_card h4 {
+.work_ex_card h4 {
     position:absolute;
     width: 60%;
     bottom: 50px;
@@ -299,11 +299,11 @@ work_ex_card h4 {
         display: none;
     }
 
-    work_ex_card_feat h4 {
+    .work_ex_card_feat h4 {
         width: 70%;
     }
 
-    work_ex_card h4 {
+    .work_ex_card h4 {
         width: 70%;
     }
 
@@ -330,12 +330,12 @@ work_ex_card h4 {
 
     } 
 
-    work_ex_card_feat h4 {
+    .work_ex_card_feat h4 {
         bottom: 30px;
         width: 80%;
     }
 
-    work_ex_card h4 {
+    .work_ex_card h4 {
         bottom: 30px;
         width: 80%;
     }
