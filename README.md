@@ -1,8 +1,8 @@
 # UW_ChWk20_ReactPortfolio
 ## Overview
-<!-- ```
-OVERVIEW TEXT HERE
-``` -->
+Create a portfolio using your new React skills, which will help set you apart from other developers whose portfolios don’t use the latest technologies. 
+
+Deploy this application to GitHub Pages. Follow the instructions in the Git Guide or consult the [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages) to create a build that you can deploy.
 
 ### Link to Web App: 
 https://abbydabbydoodoesgithub.github.io/UW_ChWk20_ReactPortfolio/
@@ -12,7 +12,9 @@ https://abbydabbydoodoesgithub.github.io/UW_ChWk20_ReactPortfolio/
 
 ## Notes
 
-<!-- Use this area to add personal notes on implementation, etc -->
+Using react for my portfolio has one massive benefit right off the bat: it's super simple to add a new project to my portfolio. I very much enjoy the ease of popping data into an array and letting my code generate the surrounding code for me. 
+
+Getting the github deployment up proved a bit tricky, but I'm proud of the app functionality in the end. 
 
 ## User Story
 
@@ -52,16 +54,22 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 ```
 
-<!-- ## Resources Used 
+## Resources Used 
 
-Use this area to list referenced apis, etc -->
+### Helpful References
+- [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages)
+
+### Technologies
+- [React.js](https://reactjs.org/)
+- [npm](https://www.npmjs.com/)
+- [GitHub Pages](https://pages.github.com/)
 
 
 
-GIVEN a single-page application portfolio for a web developer
+<!-- GIVEN a single-page application portfolio for a web developer -->
 
-WHEN I load the portfolio
-THEN I am presented with a page containing a header, a section for content, and a footer
+<!-- WHEN I load the portfolio
+THEN I am presented with a page containing a header, a section for content, and a footer -->
 
 WHEN I view the header
 THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
