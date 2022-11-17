@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/UW_ChWk20_ReactPortfolio/static/css/main.7874853d.css",
+    "main.js": "/UW_ChWk20_ReactPortfolio/static/js/main.e5a48bae.js",
+    "index.html": "/UW_ChWk20_ReactPortfolio/index.html",
+    "main.7874853d.css.map": "/UW_ChWk20_ReactPortfolio/static/css/main.7874853d.css.map",
+    "main.e5a48bae.js.map": "/UW_ChWk20_ReactPortfolio/static/js/main.e5a48bae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7874853d.css",
+    "static/js/main.e5a48bae.js"
+  ]
+}
