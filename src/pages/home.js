@@ -22,7 +22,7 @@ export default function Home() {
 
                     <p id="intro_text">
 
-                        <img id="intro_image" src="./assets/imgs/My_Profile_Pic.JPG" alt="A Picture of Abigail Douglas"/>
+                        <img id="intro_image" src="./assets/imgs/My_Profile_Pic.JPG" alt="Abigail Douglas"/>
 
                         <br id="about_me_mobile_br"/>
 
